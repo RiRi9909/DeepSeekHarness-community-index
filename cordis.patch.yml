@@ -1,0 +1,11 @@
+# dsh-sentiment-cockpit bundle patch
+#
+# Installed through the official CLI —
+#   dsh plugin --profile <name> add dsh-sentiment-cockpit@<version>
+# — the command reconciles `dsh.profile.bundles` against installed packages
+# and, seeing this declaration, appends `dsh-sentiment-cockpit` to the
+# bundle stack. The profile boot then merges THIS patch (a single `insert`
+# of the plugin row).
+- insert:
+    - id: sentiment-cockpit
+      name: 'dsh-sentiment-cockpit'
