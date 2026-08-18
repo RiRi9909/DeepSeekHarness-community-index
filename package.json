@@ -1,6 +1,6 @@
 {
   "name": "dsh-sentiment-cockpit",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "DSH web plugin: r/DeepSeek community sentiment cockpit — DSI optimism/anger index dashboard with an auto-refresh data pipeline (Fear & Greed style).",
   "type": "module",
   "main": "lib/index.js",
@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RiRi9909/DeepSeek-Community-Index.git"
+    "url": "git+https://github.com/RiRi9909/DeepSeekHarness-community-index.git"
   },
-  "homepage": "https://github.com/RiRi9909/DeepSeek-Community-Index#readme",
+  "homepage": "https://github.com/RiRi9909/DeepSeekHarness-community-index#readme",
   "bugs": {
-    "url": "https://github.com/RiRi9909/DeepSeek-Community-Index/issues"
+    "url": "https://github.com/RiRi9909/DeepSeekHarness-community-index/issues"
   },
   "keywords": [
     "deepseek-harness",

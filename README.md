@@ -1,6 +1,6 @@
-# DeepSeekHarness-community-index
+# dsh-sentiment-cockpit
 
-**DeepSeekHarness-community-index** — a web plugin for DeepSeek Harness (DSH).
+**r/DeepSeek Community Sentiment Cockpit** — a web plugin for DeepSeek Harness (DSH).
 
 > [中文文档](./README.zh.md)
 
@@ -26,11 +26,11 @@ Registers a "Sentiment Cockpit" section in the settings panel that shows a live 
 Recommended: install from this Git repository.
 
 ```bash
-dsh plugin --profile web add github:RiRi9909/DeepSeek-Community-Index
+dsh plugin --profile web add github:RiRi9909/DeepSeekHarness-community-index
 ```
 
 > Pin a commit to keep later pushes from changing what you actually run:
-> `dsh plugin --profile web add github:RiRi9909/DeepSeek-Community-Index#<commit-sha>`
+> `dsh plugin --profile web add github:RiRi9909/DeepSeekHarness-community-index#<commit-sha>`
 
 Other options (see the [official publishing docs](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/publish.zh.md)):
 
@@ -39,7 +39,7 @@ Other options (see the [official publishing docs](https://github.com/deepseek-ai
 dsh plugin --profile web add /path/to/dsh-sentiment-cockpit
 
 # tarball (built with pnpm pack)
-dsh plugin --profile web add ./dsh-sentiment-cockpit-0.2.2.tgz
+dsh plugin --profile web add ./dsh-sentiment-cockpit-0.2.3.tgz
 ```
 
 Restart DSH after installing. The plugin then shows up under Settings → Plugins, and the "Sentiment Cockpit" section appears in the settings panel.

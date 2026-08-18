@@ -26,11 +26,11 @@
 推荐使用 Git 方式（本仓库）：
 
 ```bash
-dsh plugin --profile web add github:RiRi9909/DeepSeek-Community-Index
+dsh plugin --profile web add github:RiRi9909/DeepSeekHarness-community-index
 ```
 
 > 也可以锁定到某个 commit，防止后续推送改变你实际运行的内容：
-> `dsh plugin --profile web add github:RiRi9909/DeepSeek-Community-Index#<commit-sha>`
+> `dsh plugin --profile web add github:RiRi9909/DeepSeekHarness-community-index#<commit-sha>`
 
 其他两种方式（详见[官方发布文档](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/publish.zh.md)）：
 
@@ -39,7 +39,7 @@ dsh plugin --profile web add github:RiRi9909/DeepSeek-Community-Index
 dsh plugin --profile web add /path/to/dsh-sentiment-cockpit
 
 # tarball（pnpm pack 打包后）
-dsh plugin --profile web add ./dsh-sentiment-cockpit-0.2.2.tgz
+dsh plugin --profile web add ./dsh-sentiment-cockpit-0.2.3.tgz
 ```
 
 安装后重启 DSH，即可在 设置 → 插件 中看到本插件，设置面板中出现「社区情绪驾驶舱」分区。
