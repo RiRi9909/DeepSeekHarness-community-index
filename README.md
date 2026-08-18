@@ -1,6 +1,6 @@
-# dsh-sentiment-cockpit
+# DeepSeekHarness-community-index
 
-**r/DeepSeek Community Sentiment Cockpit** — a web plugin for DeepSeek Harness (DSH).
+**DeepSeekHarness-community-index** — a web plugin for DeepSeek Harness (DSH).
 
 > [中文文档](./README.zh.md)
 
